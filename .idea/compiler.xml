@@ -10,6 +10,7 @@
         <module name="eureka-invoker" />
         <module name="eureka-provider" />
         <module name="eureka-server" />
+        <module name="eureka-test" />
         <module name="eurekatest" />
       </profile>
     </annotationProcessing>
@@ -17,6 +18,7 @@
       <module name="eureka-invoker" target="1.8" />
       <module name="eureka-provider" target="1.8" />
       <module name="eureka-server" target="1.8" />
+      <module name="eureka-test" target="1.7" />
       <module name="eurekatest" target="1.7" />
       <module name="spring-cloud-demo" target="1.8" />
     </bytecodeTargetLevel>
