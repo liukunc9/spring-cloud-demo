@@ -1,5 +1,8 @@
 package org.alanlau.eurekainvoker.controller;
 
+import org.alanlau.eurekainvoker.PersonClient;
+import org.alanlau.eurekainvoker.pojo.Person;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cloud.client.loadbalancer.LoadBalanced;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -12,16 +15,18 @@ import org.springframework.web.client.RestTemplate;
 @RestController
 @Configuration
 public class InvokerController {
-    @Bean
-    @LoadBalanced
-    public RestTemplate getRestTemplate() {
-        return new RestTemplate();
+    @Autowired
+    private PersonClient personClient;
+
+    @RequestMapping(value = "/invokeHello", method = RequestMethod.GET)
+    public String invokeHello() {
+        return personClient.hello();
     }
 
     @RequestMapping(value = "/router", method = RequestMethod.GET, produces = MediaType.APPLICATION_JSON_VALUE)
-    public String router() {
-        RestTemplate restTemplate = getRestTemplate();
-        String json = restTemplate.getForObject("http://eureka-provider/person/2", String.class);
-        return json;
+    public Person router() {
+        Person p = personClient.getPerson(22);
+
+        return p;
     }
 }
