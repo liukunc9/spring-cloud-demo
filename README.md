@@ -1,7 +1,7 @@
 # EurekaDemo
 
 #### 介绍
-Spring Eureka学习时的入门代码
+Spring Cloud Eureka学习时的入门代码
 
 #### 使用说明
 
