@@ -16,6 +16,7 @@ target/
 ### IntelliJ IDEA ###
 .idea/libraries
 .idea/modules.xml
+!.idea/vcs.xml
 *.iws
 *.ipr
 *.iml
