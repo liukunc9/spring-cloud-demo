@@ -12,6 +12,7 @@
         <module name="eureka-server" />
         <module name="eureka-test" />
         <module name="eurekatest" />
+        <module name="hystrix-dashboard" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -20,6 +21,7 @@
       <module name="eureka-server" target="1.8" />
       <module name="eureka-test" target="1.7" />
       <module name="eurekatest" target="1.7" />
+      <module name="hystrix-dashboard" target="1.8" />
       <module name="spring-cloud-demo" target="1.8" />
     </bytecodeTargetLevel>
   </component>

@@ -15,7 +15,8 @@ public class ProviderController {
     }
 
     @GetMapping("/hello")
-    public String sayHello() {
+    public String sayHello() throws InterruptedException {
+        Thread.sleep(800);
         return "Hello World!";
     }
 }
