@@ -6,6 +6,10 @@
     <file url="file://$PROJECT_DIR$/eureka-provider" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/eureka-server" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/eureka-test" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zuul-book-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zuul-eureka-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zuul-gateway" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zuul-sale-service" charset="UTF-8" />
     <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>

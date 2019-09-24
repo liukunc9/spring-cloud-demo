@@ -7,11 +7,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="eureka-invoker" />
-        <module name="eureka-provider" />
-        <module name="eureka-server" />
-        <module name="eureka-test" />
         <module name="eurekatest" />
+        <module name="zuul-book-service" />
+        <module name="zuul-eureka-server" />
+        <module name="zuul-gateway" />
+        <module name="zuul-sale-service" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -21,6 +21,11 @@
       <module name="eureka-test" target="1.7" />
       <module name="eurekatest" target="1.7" />
       <module name="spring-cloud-demo" target="1.8" />
+      <module name="zuul-book-service" target="1.8" />
+      <module name="zuul-eureka-invoker" target="1.8" />
+      <module name="zuul-eureka-server" target="1.8" />
+      <module name="zuul-gateway" target="1.8" />
+      <module name="zuul-sale-service" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

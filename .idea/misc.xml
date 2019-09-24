@@ -4,10 +4,19 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/eureka-server/pom.xml" />
-        <option value="$PROJECT_DIR$/eureka-provider/pom.xml" />
-        <option value="$PROJECT_DIR$/eureka-invoker/pom.xml" />
+        <option value="$PROJECT_DIR$/zuul-eureka-server/pom.xml" />
+        <option value="$PROJECT_DIR$/zuul-book-service/pom.xml" />
+        <option value="$PROJECT_DIR$/zuul-sale-service/pom.xml" />
+        <option value="$PROJECT_DIR$/zuul-gateway/pom.xml" />
       </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/eureka-invoker/pom.xml" />
+        <option value="$PROJECT_DIR$/eureka-provider/pom.xml" />
+        <option value="$PROJECT_DIR$/eureka-server/pom.xml" />
+        <option value="$PROJECT_DIR$/eureka-test/pom.xml" />
+      </set>
     </option>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
